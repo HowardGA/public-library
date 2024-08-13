@@ -1,0 +1,22 @@
+<ul nz-menu nzMode="horizontal" class="navbar-menu">
+    <li nz-menu-item nzSelected nzIcon="home">
+      <span nz-icon nzType="home"></span>
+      Home
+    </li>
+    <li nz-menu-item >
+      <span nz-icon nzType="swap"></span>
+      Random
+    </li>
+   <li >
+    <nz-input-group nzSearch [nzAddOnAfter]="suffixIconButton">
+        <input type="text" nz-input placeholder="input search text" />
+      </nz-input-group>
+      <ng-template #suffixIconButton>
+        <button nz-button nzType="primary" nzSearch><span nz-icon nzType="search"></span></button>
+      </ng-template>
+   </li>
+    <!-- Add a class to this item for specific styling -->
+    <li nz-menu-item class="ml-auto">
+        <nz-avatar nzIcon="user" nzSrc="//zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png">></nz-avatar>
+    </li>
+</ul>

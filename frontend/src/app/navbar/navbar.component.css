@@ -1,0 +1,12 @@
+.navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+
+  .searchbar-menu {
+    margin-top: 10px;
+  }
